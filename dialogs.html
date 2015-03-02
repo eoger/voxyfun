@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Voxygen dialogs</title>
+</head>
+  <body>
+    <div id="lines">
+      <p class="line">
+        <select class="voice"><optgroup label="Arabic"><option value="0">Adel</option></optgroup><optgroup label="English"><option value="1">Bibi</option><option value="2">Bronwen</option><option value="3">Elizabeth</option><option value="4">Paul</option></optgroup><optgroup label="Español"><option value="5">Marta</option></optgroup><optgroup label="Français"><option value="6">Agnes</option><option value="7">Bicool</option><option value="8">Chut</option><option value="9">Damien</option><option value="10">DarkVadoor</option><option value="11">Electra</option><option value="12">Eva</option><option value="13">Helene</option><option value="14">JeanJean</option><option value="15">John</option><option value="16">Loic</option><option value="17">Melodine</option><option value="18">Papi</option><option value="19">Philippe</option><option value="20">Ramboo</option><option value="21">Robot</option><option value="22" selected="selected">Sidoo</option><option value="23">Sorciere</option><option value="24">Yeti</option><option value="25">Zozo</option></optgroup><optgroup label="Italiano"><option value="26">Sonia</option></optgroup></select>
+        <br />
+        <textarea class="text" rows="3" cols="50">Salut à tous!</textarea>
+      </p>
+    </div>
+    <p>
+      Time between lines (in sec):
+      <input id="blank_time" type="text" value="0.25" size="4"></input>
+    </p>
+    <p>
+      <button id="add_line">+</button>
+      <button id="play">Play</button>
+    </p>
+    <p>
+      The actual speech synthesis is made with <a href="http://voxygen.fr/fr">Voxygen</a>. Thank you!
+    </p>
+    <script src="dialogs.js"></script>
+  </body>
+</html> 
